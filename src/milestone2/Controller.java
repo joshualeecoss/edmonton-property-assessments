@@ -89,7 +89,7 @@ public class Controller implements Initializable {
      * @throws FileNotFoundException
      */
     public ObservableList<Data> getData() throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("Property_Assessment_Data.csv"));
+        Scanner inFile = new Scanner(new File("Property_Assessment_Data_Test.csv"));
         ObservableList<Data> data = FXCollections.observableArrayList();
         //skip the first line
         inFile.nextLine();
